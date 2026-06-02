@@ -1,0 +1,19 @@
+package login;
+
+import java.io.FileInputStream;
+
+public class RevStr {
+	
+	
+	public static void main(String[] args)
+	{
+		
+		String str="Pune";
+		
+		for(int i=str.length()-1;i>=0;i--)
+		{
+			System.out.println(str.charAt(i));
+		}
+}
+
+}
